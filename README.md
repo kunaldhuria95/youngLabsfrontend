@@ -3,8 +3,6 @@
 
 ## **🚀 Features**
 - ⚡ **Vite for Fast Development**
-- ⚛️ **React 19 with TypeScript Support**
-- 🔄 **ESLint for Code Quality**
 - 🌍 **Axios for API Calls**
 - 📦 **Optimized for Production**
 
