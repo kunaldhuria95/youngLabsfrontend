@@ -9,7 +9,7 @@ function App() {
   const handleForm = async (e) => {
     e.preventDefault()
     try {
-      const { data } = await axios.get(`http://localhost:3000/api/greet?name=${name}`);
+      const { data } = await axios.get(`https://younglabsbackend-sf8r.onrender.com/api/greet?name=${name}`);
       setMessage(data.message);
     } catch (error) {
       setMessage(error.response.data.error)
